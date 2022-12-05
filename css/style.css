@@ -1,0 +1,273 @@
+body {
+  font: 100% Helvetica, sans-serif;
+  padding: 40px;
+  width: 1024px;
+  display: table-cell;
+  vertical-align: middle;
+}
+
+html {
+  display: table;
+  margin: auto;
+}
+
+.container {
+  margin-top: 100px;
+}
+
+.container--withborder {
+  border: 2px solid red;
+  padding: 30px;
+  border-radius: 10px;
+}
+
+.counter-box {
+  display: block;
+  padding: 0px 10px 10px;
+  text-align: center;
+}
+
+.counter-box p {
+  margin: 5px 0 0;
+  padding: 0;
+  color: #909090;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.counter-box i {
+  font-size: 60px;
+  margin: 0 0 15px;
+  color: #d2d2d2;
+}
+
+.four.col-md-4.counter {
+  display: block;
+  font-size: 32px;
+  font-weight: 700;
+  color: #666;
+  line-height: 28px;
+}
+
+.four.col-md-4 {
+  height: 200px;
+}
+
+.topleft {
+  height: 300px;
+}
+
+.counter-box.colored i,
+.counter-box.colored .counter {
+  color: green;
+}
+
+.four:nth-child(even) {
+  padding: 0px;
+}
+.four:nth-child(even) p {
+  color: yellow;
+}
+
+.four:nth-child(odd) {
+  padding: 0px;
+}
+.four:nth-child(odd) p {
+  color: blue;
+  padding: 0px;
+}
+
+.half {
+  width: 100%;
+  border: 1px solid black;
+  height: 150px !important;
+  position: relative;
+}
+
+.quarter {
+  background-color: lightgrey;
+  width: 50%;
+  height: 100%;
+}
+
+.rgt {
+  border-left: 2px solid white;
+  float: right;
+}
+
+.lft {
+  border-right: 2px solid white;
+  float: left;
+}
+
+.counter-box.counter-box.colored {
+  border: 3px solid white;
+  background-color: lightgrey;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.summary {
+  position: absolute;
+  bottom: 0px;
+  height: 33%;
+  background-color: rgba(0, 0, 0, 0.4);
+  width: calc(100% - 20px);
+  left: 0px;
+  margin: 10px;
+}
+
+.four.col-md-4 > div {
+  padding: 0px !important;
+  height: 100%;
+}
+
+@media screen and (max-width: 678px) {
+  body {
+    padding: 5px;
+  }
+  .logo {
+    margin-left: 20px;
+    width: 150px;
+  }
+  .counter-box {
+    background-size: cover;
+    margin: 5px;
+  }
+  .row {
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+  article.headline {
+    font-size: 12px;
+  }
+  .readmore {
+    font-size: 10px;
+    width: 70px !important;
+  }
+  nav {
+    display: none !important;
+  }
+  .hamburger-menu {
+    display: inline !important;
+    float: right;
+    top: 0px;
+    right: 5px;
+    position: absolute;
+    font-size: 20px;
+    padding: 15px;
+  }
+}
+a {
+  color: #000;
+}
+
+article {
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: left;
+  padding: 6px;
+}
+article .headline {
+  font-family: "Times New Roman", Times, serif;
+  font-weight: 600;
+  font-size: 16px;
+  text-align: left;
+}
+article .date {
+  font-weight: 400;
+  font-size: 14px;
+}
+article .info {
+  color: white !important;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 300;
+  font-size: 14px;
+  width: 80%;
+}
+
+.readmore {
+  font-family: "Times New Roman", Times, serifs;
+  position: absolute;
+  right: 0px;
+  bottom: 0px;
+  width: 100px;
+  padding: 5px;
+  margin: 5px;
+  background-color: rgba(0, 102, 204, 0.684);
+}
+
+.readmore::before {
+  content: "read more ";
+}
+
+.readmore::after {
+  font: var(--fa-font-solid);
+  content: "\f061";
+}
+
+.readmore:hover {
+  text-decoration: underline;
+}
+
+.search-icon {
+  height: 20px;
+}
+
+.search-text {
+  height: 20px;
+}
+
+.elephant-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.businessidea-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/*
+ Demo purposes only
+*/
+header {
+  padding: 0px;
+  margin: 0px;
+  display: block;
+  width: 100%;
+}
+
+.logo {
+  margin: 0 30px 0 10px;
+  font-size: 1.5em;
+}
+
+li {
+  display: inline;
+  padding: 10px;
+}
+
+ul {
+  list-style-type: none;
+  margin-bottom: 10px;
+  padding-bottom: 5px;
+  padding-left: 0px;
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+
+#main-menu {
+  width: 100%;
+  padding-bottom: 5px;
+  margin-bottom: 5px;
+  display: block;
+}
+
+.hamburger-menu {
+  display: none;
+}
+
+/*# sourceMappingURL=style.css.map */
